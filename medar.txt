@@ -1,0 +1,5 @@
+Express.js → Server framework
+CORS → Handles cross-origin requests
+Dotenv → Manages environment variables
+Mongoose → MongoDB library
+Nodemon → Auto-restarts the server on code changes
