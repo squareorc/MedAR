@@ -1,5 +1,18 @@
-Express.js → Server framework
-CORS → Handles cross-origin requests
-Dotenv → Manages environment variables
-Mongoose → MongoDB library
-Nodemon → Auto-restarts the server on code changes
+For MedAR, we are using the following tech stack:
+
+1. Backend (Main Logic & API)
+Language: Python
+Framework: FastAPI (for building the API)
+Database: SQLite / PostgreSQL (for storing reminders & user data)
+OCR: Tesseract OCR (for extracting medicine names from images)
+LLM Integration: OpenAI API or a free-to-use LLM
+Scheduling: Celery (for reminders & background tasks)
+
+2. AR Component (Augmented Reality Overlay)
+Library: OpenCV (for processing images & integrating AR)
+Framework: AR.js (Web-based AR) or Unity (for advanced AR)
+Rendering: Three.js (if using Web-based AR)
+
+3. Frontend (Web Interface)
+Framework: Streamlit (if keeping it simple) or React (for a dynamic UI)
+Design: Tailwind CSS (for styling)
