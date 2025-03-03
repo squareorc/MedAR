@@ -17,7 +17,7 @@ def extract_text_from_image(image_path):
 
 def get_medicine_info(medicine_name):
     """Fetches medicine details from Gemini API based on the extracted name."""
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     prompt =  f"Provide safe and general medical information about {medicine_name}. Do not include any dangerous content."
     response = model.generate_content(prompt)
 
